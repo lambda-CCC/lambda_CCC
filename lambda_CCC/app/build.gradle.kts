@@ -2,7 +2,8 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
 }
-
+tasks.register("prepareKotlinBuildScriptModel"){}
+//
 android {
     namespace = "com.example.lambda_ccc"
     compileSdk {
